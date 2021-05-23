@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../c++"
+		},
+		{
+			"path": "../../.CMVolumes/Vo Van Kiet/python"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"iomanip": "cpp"
+		}
+	}
+}
