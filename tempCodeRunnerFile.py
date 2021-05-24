@@ -1,0 +1,5 @@
+values=str(input("nhap vao gia tri: "))
+l=values.split(",")
+t=tuple(l)
+print (l)
+print (t)
