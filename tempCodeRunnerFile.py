@@ -1,5 +1,4 @@
-values=str(input("nhap vao gia tri: "))
-l=values.split(",")
-t=tuple(l)
-print (l)
-print (t)
+for i in range(n):
+    #     for j in range(n):
+    #         if i%j==0:
+    #             dem+=1
