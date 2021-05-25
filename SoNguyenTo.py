@@ -1,6 +1,3 @@
-from pickle import FALSE
-
-
 def SoNguyenTo(n):
     if n<2:
         return False
