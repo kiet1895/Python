@@ -6,6 +6,8 @@ def xoa(n,m):
             if str==m[x]:
                 # print(m)
                 chuoi = m.replace(str,'')
+            else:
+                chuoi='ki tu can xoa ko co trong chuoi khoa'
         m=chuoi
     print(chuoi)
 
