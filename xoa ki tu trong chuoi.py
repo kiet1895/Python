@@ -2,15 +2,14 @@ def xoa(n,m):
     s=n.find('s')
     for i in range(len(n)):
         str= n[i]
-        for x in range(len(m)):
-            if str==m[x]:
-                # print(m)
-                chuoi = m.replace(str,'')
+        while True:
+            if str in m:
+                chuoi= m.replace(str,'')
+                m=chuoi
             else:
-                chuoi='ki tu can xoa ko co trong chuoi khoa'
-        m=chuoi
+                break
     print(chuoi)
 
-n= input('moi nhap chuoi ma hoa: ')
-m= input('moi nhap chuoi can loc bo: ')
+n= input('moi ki tu can loc bo: ')
+m= input('moi nhap chuoi: ')
 xoa(n,m)
